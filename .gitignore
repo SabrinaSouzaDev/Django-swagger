@@ -1,0 +1,8 @@
+# Ignorar pastas de migrações
+**/migrations/
+# Mas manter o arquivo __init__.py, caso ele exista
+!**/migrations/__init__.py
+
+/api/core/migrations
+api/core/migrations
+/migrations
